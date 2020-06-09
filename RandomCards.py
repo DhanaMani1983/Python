@@ -17,5 +17,5 @@ def grouper(n, iterable, fillvalue=None):
 
 
 hand = grouper(5, cards)
-for i in xrange(5):
+for i in range(5):
     print next(hand)
